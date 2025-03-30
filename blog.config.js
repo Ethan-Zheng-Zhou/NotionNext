@@ -23,9 +23,7 @@ const BLOG = {
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
   // RSS订阅
-CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'ethan.zheng.zhou@outlook.com', // 邮箱地址 例如mail@tangly1024.com
-CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bilibili.com/1972089282', // B站主页
-
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'ethan.zheng.zhou@outlook.com', // 邮箱地址 例如mail@tangly1024.com
 
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
